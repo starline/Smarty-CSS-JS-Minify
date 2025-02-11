@@ -1,5 +1,5 @@
 
-
+```
 use GoodGin\Libs\SmartyCombine\Combine;
 
 $this->smarty->registerPlugin(Smarty::PLUGIN_FUNCTION, 'combine', [$this, 'combine_function']);
@@ -18,6 +18,6 @@ public function combine_function(array $params)
 
     return Combine::init($params);
 }
-
+```
 
 
